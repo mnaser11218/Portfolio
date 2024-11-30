@@ -12,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   //const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
-  const toRotate = ["Full-Stack Developer", "QA Engineer", "Java, Spring Boot, React, MySQL" ]
+  const toRotate = ["Full-Stack Developer", "QA Engineer", "Java, React, MySQL" ]
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Mohammed Naser  `} <br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Developer", "QA Engineer", "Java, Spring Boot, React, MySQL" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Mohammed Naser  `} <br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Developer", "QA Engineer", "Java, React, MySQL" ]'><span className="wrap">{text}</span></span></h1>
                   <p>About Me: <br></br>Results-driven Full-Stack Software Developer and QA Engineer with an M.A. in English Literature from Brooklyn College and over 6 years of teaching experience. Combined software development expertise with QA best practices to enhance testing processes, identify and resolve bugs early, and optimize testing environments. Used deep coding knowledge to design comprehensive test cases, troubleshoot complex defects, and deliver scalable, high-quality applications that meet both functional and non-functional requirements.
                   .</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
