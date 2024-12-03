@@ -13,6 +13,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   //const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
   const toRotate = ["Full-Stack Developer", "QA Engineer", "Java, React, MySQL" ]
+  // testing new comment
   const period = 2000;
 
   useEffect(() => {
