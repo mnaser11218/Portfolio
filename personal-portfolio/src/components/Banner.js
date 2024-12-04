@@ -59,7 +59,10 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Mohammed Naser  `} <br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Developer", "QA Engineer", "Java, React, MySQL" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>About Me: <br></br>Results-driven Full-Stack Software Developer and QA Engineer with an M.A. in English Literature from Brooklyn College and over 6 years of teaching experience. Combined software development expertise with QA best practices to enhance testing processes, identify and resolve bugs early, and optimize testing environments. Used deep coding knowledge to design comprehensive test cases, troubleshoot complex defects, and deliver scalable, high-quality applications that meet both functional and non-functional requirements.
+                  <p>About Me: <br></br>About me: 
+I am a results-driven Full-Stack Software Developer and QA Engineer with a strong foundation in both coding and quality assurance. Holding an M.A. in English Literature from Brooklyn College and with over six years of teaching experience, I bring a unique perspective to problem-solving and collaboration. I am a graduate of both ZipCode Wilmington and Tech Elevator, where I honed my skills in software development and quality assurance.
+
+Leveraging my deep technical expertise, I work to integrate best practices in both software development and QA to enhance testing processes, identify bugs early, and create efficient, scalable applications. I have designed comprehensive test cases, troubleshot complex issues, and ensured the delivery of high-quality applications that meet both functional and non-functional requirements. My passion lies in bridging the gap between development and quality to deliver seamless, user-centered solutions.
                   .</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
