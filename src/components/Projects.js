@@ -14,13 +14,13 @@ export const Projects = () => {
   const projects = [
     {
       title: "Spark: An AI Featured Twitter clone",
-      description: "AI Twitter features & Development",
+      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, AWS S3 Bucket",
       imgUrl: "http://3.134.232.108:3681/timeline",
       img:spark
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "ClassQuery: Teachers post assignments and students ask and answer questions, with AI features",
+      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Cypress, AWS",
       imgUrl: "http://3.134.232.108:3681/timeline",
       img:spark
     },

@@ -440,6 +440,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  color:white;
+
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
