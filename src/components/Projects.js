@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
+import spark from '../assets/img/Spark.png'
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -11,34 +12,40 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Spark: An AI Featured Twitter clone",
+      description: "AI Twitter features & Development",
+      imgUrl: "http://3.134.232.108:3681/timeline",
+      img:spark
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: "http://3.134.232.108:3681/timeline",
+      img:spark
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: "http://3.134.232.108:3681/timeline",
+      img:spark
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: "http://3.134.232.108:3681/timeline",
+      img:spark
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: "http://3.134.232.108:3681/timeline",
+      img:spark
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: "http://3.134.232.108:3681/timeline",
+      img:spark
     },
   ];
 
