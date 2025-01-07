@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import spark from '../assets/img/Spark.png'
+import techReads from '../assets/img/techLibrary.png'
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -24,10 +25,10 @@ export const Projects = () => {
       img:spark
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "http://3.134.232.108:3681/timeline",
-      img:spark
+      title: "Tech-Reads: A tech bookstore app clone",
+      description: "Tech used: React, HTML, TailWind CSS",
+      imgUrl: "https://main.d3t1bpwt79txk6.amplifyapp.com",
+      img:techReads
     },
     {
       title: "Business Startup",
@@ -73,7 +74,9 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
+                    Click on Project title to see Project live
                       <Row>
+                        
                         {
                           projects.map((project, index) => {
                             return (
