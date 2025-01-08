@@ -13,7 +13,9 @@ import casino2 from "../assets/img/casino2.png"
 import personTracker from "../assets/img/ReadPerson2.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
+import zipcodeCertificate from "../assets/img/zipcode2.png"
+import reactTutorial from "../assets/img/react-tutorial.png"
+import reaactHacker from "../assets/img/hackerranker-react.png"
 export const Projects = () => {
 
   const projects = [
@@ -55,6 +57,44 @@ export const Projects = () => {
     },
   ];
 
+  const certificates = [
+    {
+      title: "Zipcode Wilmington",
+      description: "Graduated from Zipcode Wilmington full stack bootcamp",
+      imgUrl: "https://credsverse.com/credentials/77738f25-3073-42d2-a5ce-b9346eece245?preview=1",
+      img:zipcodeCertificate
+    },
+    {
+      title: "Tech Elevator",
+      description: "Graduated from tech elevator ... ",
+      imgUrl: "https://main.d3t1bpwt79txk6.amplifyapp.com",
+      img:techReads
+    },
+    {
+      title: "React Tutorial",
+      description: "The course includes 90 in-depth lessons covering essential React concepts such as: React State, Props, Effects, Custom Hooks (useState, useEffect, useFetch, useParams, useContext, and more), Components, localStorage, ReactDOM, advanced React Router, Context, APIs, Accessibility, Error Handling, Testing, and several React-based projects.",
+      imgUrl: "https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--_UBwapTV--/v1728525288/certificates/react/mohammednaser-2142.pdf",
+      img:reactTutorial
+    },
+    {
+      title: "HackerRank React Certificate",
+      description: "",
+      imgUrl: "https://www.hackerrank.com/certificates/242058ed99e7",
+      img:reaactHacker
+    },
+    {
+      title: "Fullstack Person tracker: create, track, update, delete person records application",
+      description: "Tech used: Java Spring Boot, H2, JPA, Javascript, Axios, HTML, CSS, and Jmeter for stress testing.",
+      imgUrl: "https://www.hackerrank.com/certificates/242058ed99e7",
+      img:personTracker
+    }, {
+      title: "ClassQuery: Teachers post assignments and students ask and answer questions, with AI features",
+      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
+      imgUrl: "http://3.134.232.108:3681/timeline",
+      img:spark
+    }
+  ];
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -68,17 +108,51 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Technical Certificates</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Blogs written</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
+                    Click on Project title to see Project live
+                      <Row>
+                        
+                        {
+                          projects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+
+                    <Tab.Pane eventKey="second">
+                    Click on Certificate title to see Certificate credentials
+                      <Row>
+                        
+                        {
+                          certificates.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+
+                    <Tab.Pane eventKey="third">
                     Click on Project title to see Project live
                       <Row>
                         
