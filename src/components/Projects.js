@@ -128,7 +128,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Technical Certificates</Nav.Link>
+                      <Nav.Link eventKey="second">Technical Certifications</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Blogs and Articles</Nav.Link>
@@ -136,7 +136,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                    Latest Project that I've built, Class Query: 
+                   <div style={{color:"white", fontSize:"15px", fontStyle:"bold", margin: "20px"}}><p>Latest Project that I've built, Class Query: </p></div> 
                       <Row>
                         
                         {
@@ -153,7 +153,7 @@ export const Projects = () => {
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="second">
-                    Click on Certificate title for Certificate credentials
+                    <p>Click on Certificate title for Certificate credentials</p>
                       <Row>
                         
                         {
@@ -170,7 +170,7 @@ export const Projects = () => {
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="third">
-                    Click on Title to read some of the articles, tutorials and blogs I've authored on Medium!
+                    <p>Click on Title to read some of the articles, tutorials and blogs I've authored on Medium!</p>
                       <Row>
                         
                         {
