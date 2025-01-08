@@ -19,6 +19,7 @@ import reaactHacker from "../assets/img/hackerranker-react.png"
 import javascriptCert from "../assets/img/javascript-cert.png"
 import hackerrankProb from "../assets/img/hakerrankpromblemsolving.png"
 import mediumBlogs from "../assets/img/mediumblogs.png"
+import classQuery from "../assets/img/classquery.png"
 
 export const Projects = () => {
 
@@ -27,7 +28,7 @@ export const Projects = () => {
       title: "ClassQuery: App for Teachers to post assignments and students ask/answer questions, with some AI features",
       description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
       imgUrl: "http://3.134.232.108:3681/timeline",
-      img:spark
+      img:classQuery
     },
     {
       title: "Spark: An AI Featured Twitter clone",
@@ -152,7 +153,7 @@ export const Projects = () => {
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="second">
-                    Click on Certificate title to see Certificate credentials
+                    Click on Certificate title for Certificate credentials
                       <Row>
                         
                         {
