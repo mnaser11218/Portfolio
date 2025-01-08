@@ -16,21 +16,26 @@ import TrackVisibility from 'react-on-screen';
 import zipcodeCertificate from "../assets/img/zipcode2.png"
 import reactTutorial from "../assets/img/react-tutorial.png"
 import reaactHacker from "../assets/img/hackerranker-react.png"
+import javascriptCert from "../assets/img/javascript-cert.png"
+import hackerrankProb from "../assets/img/hakerrankpromblemsolving.png"
+import mediumBlogs from "../assets/img/mediumblogs.png"
+
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "ClassQuery: App for Teachers to post assignments and students ask/answer questions, with some AI features",
+      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
+      imgUrl: "http://3.134.232.108:3681/timeline",
+      img:spark
+    },
     {
       title: "Spark: An AI Featured Twitter clone",
       description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, AWS S3 Bucket, AWS EC2",
       imgUrl: "http://3.134.232.108:3681/timeline",
       img:spark
     },
-    {
-      title: "ClassQuery: Teachers post assignments and students ask and answer questions, with AI features",
-      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
-      imgUrl: "http://3.134.232.108:3681/timeline",
-      img:spark
-    },
+    
     {
       title: "Tech-Reads: A tech bookstore app clone",
       description: "Tech used: React, Vite, HTML, TailWind CSS",
@@ -77,23 +82,34 @@ export const Projects = () => {
       img:reactTutorial
     },
     {
-      title: "HackerRank React Certificate",
+      title: "HackerRank React Developer Certificate",
       description: "",
       imgUrl: "https://www.hackerrank.com/certificates/242058ed99e7",
       img:reaactHacker
     },
     {
-      title: "Fullstack Person tracker: create, track, update, delete person records application",
-      description: "Tech used: Java Spring Boot, H2, JPA, Javascript, Axios, HTML, CSS, and Jmeter for stress testing.",
-      imgUrl: "https://www.hackerrank.com/certificates/242058ed99e7",
-      img:personTracker
-    }, {
-      title: "ClassQuery: Teachers post assignments and students ask and answer questions, with AI features",
-      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
-      imgUrl: "http://3.134.232.108:3681/timeline",
-      img:spark
+      title: "HackerRank Problem Solving Data Structures and Algorithms Certificate",
+      description: "",
+      imgUrl: "https://www.hackerrank.com/certificates/d3de0012acbd",
+      img:hackerrankProb
+    },
+    {
+      title: "Javascript Certificate",
+      description: "Course covers over 90 lessons: Strings, Numbers, Arrays, Objects, Functions, Prototypical inheritance, JSON, Promises, Fetch, Events, async/await, DOM, Web Components and projects.",
+      imgUrl: "https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--CaGk2bbh--/v1684977725/certificates/javascript/mohammednaser-4586.pdf",
+      img:javascriptCert
     }
   ];
+
+  const blogs = [
+    {
+      title: "Medium technical blogs",
+      description: "Click here to read some of my articles and blogs!",
+      imgUrl: "https://medium.com/@mnaser11218",
+      img:mediumBlogs
+    }
+  ];
+
 
   return (
     <section className="project" id="projects">
@@ -119,7 +135,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                    Click on Project title to see Project live
+                    Latest Project that I've built, Class Query: 
                       <Row>
                         
                         {
@@ -153,11 +169,11 @@ export const Projects = () => {
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="third">
-                    Click on Project title to see Project live
+                    Click on Title to read some of the articles, tutorials and blogs I've authored on Medium!
                       <Row>
                         
                         {
-                          projects.map((project, index) => {
+                          blogs.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
