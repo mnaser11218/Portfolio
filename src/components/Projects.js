@@ -7,6 +7,9 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import dictionary_app from "../assets/img/dictionary_app.png"
+import gameSimulation from "../assets/img/gameSimulation.png"
+import casino from "../assets/img/casino.gif"
+import casino2 from "../assets/img/casino2.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -38,10 +41,10 @@ export const Projects = () => {
       img:dictionary_app
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "http://3.134.232.108:3681/timeline",
-      img:spark
+      title: "Arcade Simulation",
+      description: "Java Game Simuation: BeatTheDealer, BlackJack, Keno, Rouletto, Slots, NumberGuess",
+      imgUrl: "https://github.com/mnaser11218/GroupCasino",
+      img:casino2
     },
     {
       title: "Business Startup",
