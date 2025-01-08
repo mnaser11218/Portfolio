@@ -6,6 +6,7 @@ import techReads from '../assets/img/techLibrary.png'
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import dictionary_app from "../assets/img/dictionary_app.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -14,27 +15,27 @@ export const Projects = () => {
   const projects = [
     {
       title: "Spark: An AI Featured Twitter clone",
-      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, AWS S3 Bucket",
+      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, AWS S3 Bucket, AWS EC2",
       imgUrl: "http://3.134.232.108:3681/timeline",
       img:spark
     },
     {
       title: "ClassQuery: Teachers post assignments and students ask and answer questions, with AI features",
-      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Cypress, AWS",
+      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
       imgUrl: "http://3.134.232.108:3681/timeline",
       img:spark
     },
     {
       title: "Tech-Reads: A tech bookstore app clone",
-      description: "Tech used: React, HTML, TailWind CSS",
+      description: "Tech used: React, Vite, HTML, TailWind CSS",
       imgUrl: "https://main.d3t1bpwt79txk6.amplifyapp.com",
       img:techReads
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: "http://3.134.232.108:3681/timeline",
-      img:spark
+      title: "Dictionary_Typescript",
+      description: "Tech used: Typescript, Javascript, HTML, CSS",
+      imgUrl: "https://github.com/mnaser11218/DictionaryApp",
+      img:dictionary_app
     },
     {
       title: "Business Startup",
