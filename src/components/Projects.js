@@ -20,6 +20,7 @@ import javascriptCert from "../assets/img/javascript-cert.png"
 import hackerrankProb from "../assets/img/hakerrankpromblemsolving.png"
 import mediumBlogs from "../assets/img/mediumblogs.png"
 import classQuery from "../assets/img/classquery.png"
+import fullstackArticle from "../assets/img/fullstackart.png"
 
 export const Projects = () => {
 
@@ -67,13 +68,13 @@ export const Projects = () => {
   const certificates = [
     {
       title: "Zipcode Wilmington",
-      description: "Graduated from Zipcode Wilmington full stack bootcamp",
+      description: "Graduated from Zip Code Wilmington’s highly competitive software development program accepting less than 7% of applicants; completed over 1000 hours of software development projects in an immersive, full-stack training program (Java, React, MySQL, Spring Boot) using Agile and Scrum methodologies.",
       imgUrl: "https://credsverse.com/credentials/77738f25-3073-42d2-a5ce-b9346eece245?preview=1",
       img:zipcodeCertificate
     },
     {
       title: "Tech Elevator",
-      description: "Graduated from tech elevator ... ",
+      description: "Awarded Capstone Project Trophy Recipient. A full-stack Java coding bootcamp learning how to develop dynamic web-based software systems using the Java programming language and platform with 700+ hours of lecture and application including: Object-Oriented Programming: Java, JavaScript, Spring Boot, Vue.js, JDBC, Table Design, SQL, PostgreSQL, E/R diagrams, Agile, Unit Testing (JUnit), Integration Testing, Unix Command Line navigation, Git, IntelliJ",
       imgUrl: "https://main.d3t1bpwt79txk6.amplifyapp.com",
       img:techReads
     },
@@ -105,10 +106,34 @@ export const Projects = () => {
 
   const blogs = [
     {
-      title: "Medium technical blogs",
-      description: "Click here to read some of my articles and blogs!",
-      imgUrl: "https://medium.com/@mnaser11218",
-      img:mediumBlogs
+      title: "Article: Step by Step Tutorial: How to create a full stack website with Springboot/Java in under an hour",
+      description: "Click here to read the article!",
+      imgUrl: "https://medium.com/@mnhttps://medium.com/@mnaser11218/a-quick-and-easy-guide-build-a-full-stack-restful-spring-boot-website-in-10-simple-steps-5c7e0c8581ab",
+      img:fullstackArticle
+    },
+    {
+      title: "React Tutorial",
+      description: "The course includes 90 in-depth lessons covering essential React concepts such as: React State, Props, Effects, Custom Hooks (useState, useEffect, useFetch, useParams, useContext, and more), Components, localStorage, ReactDOM, advanced React Router, Context, APIs, Accessibility, Error Handling, Testing, and several React-based projects.",
+      imgUrl: "https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--_UBwapTV--/v1728525288/certificates/react/mohammednaser-2142.pdf",
+      img:reactTutorial
+    },
+    {
+      title: "HackerRank React Developer Certificate",
+      description: "",
+      imgUrl: "https://www.hackerrank.com/certificates/242058ed99e7",
+      img:reaactHacker
+    },
+    {
+      title: "HackerRank Problem Solving Data Structures and Algorithms Certificate",
+      description: "",
+      imgUrl: "https://www.hackerrank.com/certificates/d3de0012acbd",
+      img:hackerrankProb
+    },
+    {
+      title: "Javascript Certificate",
+      description: "Course covers over 90 lessons: Strings, Numbers, Arrays, Objects, Functions, Prototypical inheritance, JSON, Promises, Fetch, Events, async/await, DOM, Web Components and projects.",
+      imgUrl: "https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--CaGk2bbh--/v1684977725/certificates/javascript/mohammednaser-4586.pdf",
+      img:javascriptCert
     }
   ];
 
