@@ -83,12 +83,7 @@ export const Projects = () => {
       imgUrl: "",
       img:techElevator
     },
-    {
-      title: "React Tutorial",
-      description: "The course includes 90 in-depth lessons covering essential React concepts such as: React State, Props, Effects, Custom Hooks (useState, useEffect, useFetch, useParams, useContext, and more), Components, localStorage, ReactDOM, advanced React Router, Context, APIs, Accessibility, Error Handling, Testing, and several React-based projects.",
-      imgUrl: "https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--_UBwapTV--/v1728525288/certificates/react/mohammednaser-2142.pdf",
-      img:reactTutorial
-    },
+   
     {
       title: "HackerRank Frontend Developer (React) Certificate",
       description: "",
@@ -100,13 +95,8 @@ export const Projects = () => {
       description: "Topics Covered: Command Line Scripting, Git Command Line Interface, front-End Development, Java Web Development, Data Engineering, Virtualization, Containerization, Cloud Computing, Interview Preparation, Algorithms, Techpreneurship",
       imgUrl: "https://curriculeon.github.io/Curriculeon/graduate-certificates/Mohammad%20Naser.html",
       img:leonCertificate
-    },
-    {
-      title: "Javascript Certificate",
-      description: "Course covers over 90 lessons: Strings, Numbers, Arrays, Objects, Functions, Prototypical inheritance, JSON, Promises, Fetch, Events, async/await, DOM, Web Components and projects.",
-      imgUrl: "https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--CaGk2bbh--/v1684977725/certificates/javascript/mohammednaser-4586.pdf",
-      img:javascriptCert
     }
+  
   ];
 
   const blogs = [
