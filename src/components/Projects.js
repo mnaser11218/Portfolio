@@ -24,17 +24,18 @@ import classQuery from "../assets/img/classquery.png"
 export const Projects = () => {
 
   const projects = [
-    {
-      title: "ClassQuery: App for Teachers to post assignments and students ask/answer questions, with some AI features",
-      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
-      imgUrl: "http://3.134.232.108:3681/timeline",
-      img:classQuery
-    },
+   
     {
       title: "Spark: An AI Featured Twitter clone",
       description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, AWS S3 Bucket, AWS EC2",
       imgUrl: "http://3.134.232.108:3681/timeline",
       img:spark
+    },
+    {
+      title: "ClassQuery: App for Teachers to post assignments and students ask/answer questions, with additional AI features",
+      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
+      imgUrl: "https://github.com/mnaser11218/ClassQuery",
+      img:classQuery
     },
     
     {
@@ -136,7 +137,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                   <div style={{color:"white", fontSize:"15px", fontStyle:"bold", margin: "20px"}}><p>Latest Project that I've built, Class Query: </p></div> 
+                   <div style={{color:"white", fontSize:"15px", fontStyle:"bold", margin: "20px"}}><p>Click on the Title of the Project to Route to the Application/Project </p></div> 
                       <Row>
                         
                         {
