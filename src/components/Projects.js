@@ -140,7 +140,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-<p>ClassQuery: React, Cypress, JMeter, OpenAI API, JS, HTML, CSS, Java, SpringBoot, H2, Docker. <br></br>Spark: React, Axios, AWS S3 bucket, OpenAI API, Java, SpringBoot, H2, EC2 instance. </p>
+<p><b>ClassQuery:</b> React, OpenAI API, JS, HTML, CSS, Java, SpringBoot, H2, Docker, Cypress, JMeter,  <br></br><b>Spark:</b> React, Axios, AWS S3 bucket, OpenAI API, Java, SpringBoot, H2, EC2 instance. <br></br> <b>Tech-Reads:</b> React, Vite, JS, HTML, Tailwind CSS <br></br><b>Dictionary_Typescript:</b> TypeScript, JS, HTML, CSS (Dictionary API) <br></br> <b>Arcade Simulation: </b>Object-Oriented Programming: Java, JUnit <br></br><b>Fullstack Person Tracker:</b> Javascript, Axios, HTML, CSS, Java Springboot, H2, JMeter for stress testing  </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

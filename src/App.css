@@ -21,6 +21,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+b{
+  color: white;
+}
 
 html {
   scroll-behavior: smooth;
