@@ -90,13 +90,13 @@ export const Projects = () => {
       img:reactTutorial
     },
     {
-      title: "HackerRank React Developer Certificate",
+      title: "HackerRank Frontend Developer (React) Certificate",
       description: "",
       imgUrl: "https://www.hackerrank.com/certificates/242058ed99e7",
       img:reaactHacker
     },
     {
-      title: "Curriculeon Full Stack Web Developer Course",
+      title: "Curriculeon Full Stack Web Developer",
       description: "Topics Covered: Command Line Scripting, Git Command Line Interface, front-End Development, Java Web Development, Data Engineering, Virtualization, Containerization, Cloud Computing, Interview Preparation, Algorithms, Techpreneurship",
       imgUrl: "https://curriculeon.github.io/Curriculeon/graduate-certificates/Mohammad%20Naser.html",
       img:leonCertificate
@@ -117,7 +117,7 @@ export const Projects = () => {
       img:fullstackArticle
     },
     {
-      title: "“Step-by-Step Tutorial: Integrating OpenAI’s API into Your React Application to Correct User Input Grammar for Beginners.”",
+      title: "“Step-by-Step Tutorial: Integrating OpenAI’s API into Your React Application for Beginners.”",
       description: "Click here to read the article!",
       imgUrl: "https://medium.com/@mnaser11218/example-video-showcasing-the-functionality-of-grammar-correction-using-openais-api-26271ec5500c",
       img:openAIBlog
