@@ -22,6 +22,8 @@ import mediumBlogs from "../assets/img/mediumblogs.png"
 import classQuery from "../assets/img/classquery.png"
 import fullstackArticle from "../assets/img/fullstackart.png"
 import techElevator from "../assets/img/techelevator.jpg"
+import openAIBlog from "../assets/img/openAI-blog.png"
+import blogAWS from "../assets/img/blogaws.png"
 
 export const Projects = () => {
 
@@ -113,29 +115,18 @@ export const Projects = () => {
       img:fullstackArticle
     },
     {
-      title: "React Tutorial",
-      description: "The course includes 90 in-depth lessons covering essential React concepts such as: React State, Props, Effects, Custom Hooks (useState, useEffect, useFetch, useParams, useContext, and more), Components, localStorage, ReactDOM, advanced React Router, Context, APIs, Accessibility, Error Handling, Testing, and several React-based projects.",
-      imgUrl: "https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--_UBwapTV--/v1728525288/certificates/react/mohammednaser-2142.pdf",
-      img:reactTutorial
+      title: "“Step-by-Step Tutorial: Integrating OpenAI’s API into Your React Application to Correct User Input Grammar for Beginners.”",
+      description: "Click here to read the article!",
+      imgUrl: "https://medium.com/@mnaser11218/example-video-showcasing-the-functionality-of-grammar-correction-using-openais-api-26271ec5500c",
+      img:openAIBlog
     },
     {
-      title: "HackerRank React Developer Certificate",
+      title: "A Step-by-Step Guide: How to Host Your React Application on AWS Cloud Using AWS Amplify and GitHub Repositories",
       description: "",
-      imgUrl: "https://www.hackerrank.com/certificates/242058ed99e7",
-      img:reaactHacker
-    },
-    {
-      title: "HackerRank Problem Solving Data Structures and Algorithms Certificate",
-      description: "",
-      imgUrl: "https://www.hackerrank.com/certificates/d3de0012acbd",
-      img:hackerrankProb
-    },
-    {
-      title: "Javascript Certificate",
-      description: "Course covers over 90 lessons: Strings, Numbers, Arrays, Objects, Functions, Prototypical inheritance, JSON, Promises, Fetch, Events, async/await, DOM, Web Components and projects.",
-      imgUrl: "https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--CaGk2bbh--/v1684977725/certificates/javascript/mohammednaser-4586.pdf",
-      img:javascriptCert
+      imgUrl: "https://medium.com/@mnaser11218/a-step-by-step-guide-to-hosting-your-react-application-on-aws-cloud-using-aws-amplify-and-github-ec0a3e7bd5fe",
+      img:blogAWS
     }
+  
   ];
 
 
