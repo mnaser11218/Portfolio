@@ -34,7 +34,7 @@ export const Projects = () => {
     {
       title: "Spark: An AI Featured Twitter clone",
       description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, AWS S3 Bucket, AWS EC2",
-      imgUrl: "http://3.134.232.108:3681/timeline",
+      imgUrl: "http://3.134.232.108:3681",
       img:spark
     },
     {
