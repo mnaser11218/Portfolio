@@ -189,7 +189,7 @@ export const Projects = () => {
                     </Tab.Pane>
 
                     <Tab.Pane eventKey="third">
-                    <p>Click on Title to read some of the articles, tutorials and blogs I've authored on Medium!</p>
+                    <p>Click on Title to read some of the articles, tutorials and blogs I've authored!</p>
                       <Row>
                         
                         {
