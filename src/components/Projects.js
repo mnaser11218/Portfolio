@@ -24,6 +24,7 @@ import fullstackArticle from "../assets/img/fullstackart.png"
 import techElevator from "../assets/img/techelevator.jpg"
 import openAIBlog from "../assets/img/openAI-blog.png"
 import blogAWS from "../assets/img/blogaws.png"
+import leonCertificate from "../assets/img/leon.png"
 
 export const Projects = () => {
 
@@ -94,10 +95,10 @@ export const Projects = () => {
       img:reaactHacker
     },
     {
-      title: "HackerRank Problem Solving Data Structures and Algorithms Certificate",
-      description: "",
-      imgUrl: "https://www.hackerrank.com/certificates/d3de0012acbd",
-      img:hackerrankProb
+      title: "Curriculeon Full Stack Web Developer Course",
+      description: "Topics Covered: Command Line Scripting, Git Command Line Interface, front-End Development, Java Web Development, Data Engineering, Virtualization, Containerization, Cloud Computing, Interview Preparation, Algorithms, Techpreneurship",
+      imgUrl: "https://curriculeon.github.io/Curriculeon/graduate-certificates/Mohammad%20Naser.html",
+      img:leonCertificate
     },
     {
       title: "Javascript Certificate",
