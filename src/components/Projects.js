@@ -21,6 +21,7 @@ import hackerrankProb from "../assets/img/hakerrankpromblemsolving.png"
 import mediumBlogs from "../assets/img/mediumblogs.png"
 import classQuery from "../assets/img/classquery.png"
 import fullstackArticle from "../assets/img/fullstackart.png"
+import techElevator from "../assets/img/techelevator.jpg"
 
 export const Projects = () => {
 
@@ -34,7 +35,7 @@ export const Projects = () => {
     },
     {
       title: "ClassQuery: App for Teachers to post assignments and students ask/answer questions, with additional AI features",
-      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress, AWS EC2",
+      description: "Tech Used: Java SpringBoot, React, H2 Db, OpenAI, Docker, Jmeter, Cypress",
       imgUrl: "https://github.com/mnaser11218/ClassQuery",
       img:classQuery
     },
@@ -75,8 +76,8 @@ export const Projects = () => {
     {
       title: "Tech Elevator",
       description: "Awarded Capstone Project Trophy Recipient. A full-stack Java coding bootcamp learning how to develop dynamic web-based software systems using the Java programming language and platform with 700+ hours of lecture and application including: Object-Oriented Programming: Java, JavaScript, Spring Boot, Vue.js, JDBC, Table Design, SQL, PostgreSQL, E/R diagrams, Agile, Unit Testing (JUnit), Integration Testing, Unix Command Line navigation, Git, IntelliJ",
-      imgUrl: "https://main.d3t1bpwt79txk6.amplifyapp.com",
-      img:techReads
+      imgUrl: "",
+      img:techElevator
     },
     {
       title: "React Tutorial",
@@ -108,7 +109,7 @@ export const Projects = () => {
     {
       title: "Article: Step by Step Tutorial: How to create a full stack website with Springboot/Java in under an hour",
       description: "Click here to read the article!",
-      imgUrl: "https://medium.com/@mnhttps://medium.com/@mnaser11218/a-quick-and-easy-guide-build-a-full-stack-restful-spring-boot-website-in-10-simple-steps-5c7e0c8581ab",
+      imgUrl: "https://medium.com/@mnaser11218/a-quick-and-easy-guide-build-a-full-stack-restful-spring-boot-website-in-10-simple-steps-5c7e0c8581ab",
       img:fullstackArticle
     },
     {
