@@ -25,6 +25,7 @@ import techElevator from "../assets/img/techelevator.jpg"
 import openAIBlog from "../assets/img/openAI-blog.png"
 import blogAWS from "../assets/img/blogaws.png"
 import leonCertificate from "../assets/img/leon.png"
+import reactDom from "../assets/img/reactDomArticle.png"
 
 export const Projects = () => {
 
@@ -126,6 +127,12 @@ export const Projects = () => {
       description: "",
       imgUrl: "https://medium.com/@mnaser11218/a-step-by-step-guide-to-hosting-your-react-application-on-aws-cloud-using-aws-amplify-and-github-ec0a3e7bd5fe",
       img:blogAWS
+    },
+    {
+      title: "React Basics Q&A: Understanding React, ReactDOM, and the Virtual DOM. What sets React apart ?",
+      description: "",
+      imgUrl: "https://medium.com/@mnaser11218/react-basics-q-a-understanding-react-reactdom-and-the-virtual-dom-what-sets-react-apart-0a536513d628",
+      img:reactDom
     }
   
   ];
