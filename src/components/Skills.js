@@ -35,8 +35,8 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p> React | JavaScript | TypeScript | Git, GitHub | Docker | 
-                        JUnit | Postman<br></br> Java | Spring Boot | Agile Methodologies | Cypress | Jmeter<br></br> MySQL / PostgreSQL | Test Driven Development (TDD) | UI/API Testing</p> 
+                        <p> React | JavaScript | OpenAI API | TypeScript | Git, GitHub | AWS S3 | Docker 
+                       <br></br> Java | Spring Boot | Agile Methodologies | Cypress | Jmeter | JUnit | Postman<br></br> MySQL / PostgreSQL | Test Driven Development (TDD) | UI/API Testing</p> 
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
