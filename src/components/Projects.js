@@ -63,9 +63,9 @@ export const Projects = () => {
       img:casino2
     },
     {
-      title: "Fullstack Person tracker: create, track, update, delete person records application",
+      title: "CRUD_SpringBootApp: FullStack app to track Person records application",
       description: "Tech used: Java Spring Boot, H2, JPA, Javascript, Axios, HTML, CSS, and Jmeter for stress testing.",
-      imgUrl: "https://fullstackspringcrudapp.onrender.com/",
+      imgUrl: "https://github.com/mnaser11218/StringBootFullStackApp",
       img:personTracker
     },
   ];
