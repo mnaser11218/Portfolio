@@ -26,7 +26,7 @@ import openAIBlog from "../assets/img/openAI-blog.png"
 import blogAWS from "../assets/img/blogaws.png"
 import leonCertificate from "../assets/img/leon.png"
 import reactDom from "../assets/img/reactDomArticle.png"
-import cypress from '../assets/img/cypress.png'
+import cypress from '../assets/img/cypress2.png'
 export const Projects = () => {
 
   const projects = [
