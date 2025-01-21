@@ -26,7 +26,7 @@ import openAIBlog from "../assets/img/openAI-blog.png"
 import blogAWS from "../assets/img/blogaws.png"
 import leonCertificate from "../assets/img/leon.png"
 import reactDom from "../assets/img/reactDomArticle.png"
-
+import cypress from '../assets/img/cypress.png'
 export const Projects = () => {
 
   const projects = [
@@ -51,6 +51,12 @@ export const Projects = () => {
       img:techReads
     },
     {
+      title: "Cypress Automation E2E/API Testing",
+      description: "Cypress methods implemented: intercepts, fixtures, assertions, mocking API response, headless authorization",
+      imgUrl: "https://github.com/mnaser11218/ApiTestingCypress",
+      img:cypress
+    },
+    {
       title: "Dictionary_Typescript",
       description: "Tech used: Typescript, Javascript, HTML, CSS",
       imgUrl: "https://github.com/mnaser11218/DictionaryApp",
@@ -68,6 +74,8 @@ export const Projects = () => {
       imgUrl: "https://github.com/mnaser11218/StringBootFullStackApp",
       img:personTracker
     },
+   
+    
   ];
 
   const certificates = [
