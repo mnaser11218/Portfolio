@@ -64,7 +64,7 @@ export const Projects = () => {
     },
     {
       title: "Arcade Simulation",
-      description: "Java Game Simuation: BeatTheDealer, BlackJack, Keno, Rouletto, Slots, NumberGuess",
+      description: "Java Game Simulation: BeatTheDealer, BlackJack, Keno, Rouletto, Slots, NumberGuess",
       imgUrl: "https://github.com/mnaser11218/GroupCasino",
       img:casino2
     },
