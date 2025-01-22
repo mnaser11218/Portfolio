@@ -63,8 +63,8 @@ export const Projects = () => {
       img:dictionary_app
     },
     {
-      title: "Arcade Simulation",
-      description: "Java Game Simulation: BeatTheDealer, BlackJack, Keno, Rouletto, Slots, NumberGuess",
+      title: "Java Arcade Simulation: BeatTheDealer, BlackJack, Keno, Rouletto, Slots, NumberGuess",
+      description: "Java: Dependency Injection, Abstract classes, Interfaces, Inheritance, Polymorphism, Exception Handling, Randomization, Collections, File I/O, and UI Design.",
       imgUrl: "https://github.com/mnaser11218/GroupCasino",
       img:casino2
     },
