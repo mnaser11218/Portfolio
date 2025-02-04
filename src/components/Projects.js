@@ -59,7 +59,7 @@ export const Projects = () => {
     {
       title: "Dictionary_Typescript",
       description: "Tech used: Typescript, Javascript, HTML, CSS",
-      imgUrl: "https://github.com/mnaser11218/DictionaryApp",
+      imgUrl: "https://dictionary-app-roan-rho.vercel.app/",
       img:dictionary_app
     },
     {
