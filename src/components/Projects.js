@@ -47,7 +47,7 @@ export const Projects = () => {
     {
       title: "Tech-Reads: A tech bookstore app clone",
       description: "Tech used: React, Vite, HTML, TailWind CSS",
-      imgUrl: "https://main.d3t1bpwt79txk6.amplifyapp.com",
+      imgUrl: "https://tech-reads-three.vercel.app/",
       img:techReads
     },
     {
