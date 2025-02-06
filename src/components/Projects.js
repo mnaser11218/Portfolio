@@ -36,8 +36,8 @@ export const Projects = () => {
       img:classQuery
     },
     {
-      title: "Dictionary_Typescript",
-      description: "Tech used: Typescript, Javascript, HTML, CSS",
+      title: "Dictionary_Recipe: AI generated Dictionary app to get word definitions based on prefered context and educational level ",
+      description: "Tech used: Typescript, OpenAI, Javascript, HTML, CSS",
       imgUrl: "https://dictionary-app-roan-rho.vercel.app/",
       img:dictionary_app
     },
@@ -59,13 +59,7 @@ export const Projects = () => {
       description: "Java: Dependency Injection, Abstract classes, Interfaces, Inheritance, Polymorphism, Exception Handling, Randomization, Collections, File I/O, and UI Design.",
       imgUrl: "https://github.com/mnaser11218/GroupCasino",
       img:casino2
-    },
-    {
-      title: "CRUD_SpringBootApp: FullStack app to track Person records application",
-      description: "Tech used: Java Spring Boot, H2, JPA, Javascript, Axios, HTML, CSS, and Jmeter for stress testing.",
-      imgUrl: "https://github.com/mnaser11218/StringBootFullStackApp",
-      img:personTracker
-    },
+    }
    
     
   ];
