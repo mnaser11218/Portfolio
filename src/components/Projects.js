@@ -1,14 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
 import spark from '../assets/img/Spark.png'
 import techReads from '../assets/img/techLibrary.png'
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import dictionary_app from "../assets/img/dictionary_app.png"
-import gameSimulation from "../assets/img/gameSimulation.png"
-import casino from "../assets/img/casino.gif"
 import casino2 from "../assets/img/casino2.png"
 import personTracker from "../assets/img/ReadPerson2.png"
 import 'animate.css';
@@ -16,9 +10,7 @@ import TrackVisibility from 'react-on-screen';
 import zipcodeCertificate from "../assets/img/zipcode2.png"
 import reactTutorial from "../assets/img/react-tutorial.png"
 import reaactHacker from "../assets/img/hackerranker-react.png"
-import javascriptCert from "../assets/img/javascript-cert.png"
-import hackerrankProb from "../assets/img/hakerrankpromblemsolving.png"
-import mediumBlogs from "../assets/img/mediumblogs.png"
+import dictionary_app from '../assets/img/dictionaryRecipe.png'
 import classQuery from "../assets/img/classquery.png"
 import fullstackArticle from "../assets/img/fullstackart.png"
 import techElevator from "../assets/img/techelevator.jpg"
@@ -43,6 +35,12 @@ export const Projects = () => {
       imgUrl: "https://github.com/mnaser11218/ClassQuery",
       img:classQuery
     },
+    {
+      title: "Dictionary_Typescript",
+      description: "Tech used: Typescript, Javascript, HTML, CSS",
+      imgUrl: "https://dictionary-app-roan-rho.vercel.app/",
+      img:dictionary_app
+    },
     
     {
       title: "Tech-Reads: A tech bookstore app clone",
@@ -55,12 +53,6 @@ export const Projects = () => {
       description: "Cypress methods implemented: intercepts, fixtures, assertions, mocking API response, headless authorization",
       imgUrl: "https://github.com/mnaser11218/ApiTestingCypress",
       img:cypress
-    },
-    {
-      title: "Dictionary_Typescript",
-      description: "Tech used: Typescript, Javascript, HTML, CSS",
-      imgUrl: "https://dictionary-app-roan-rho.vercel.app/",
-      img:dictionary_app
     },
     {
       title: "Java Arcade Simulation: BeatTheDealer, BlackJack, Keno, Rouletto, Slots, NumberGuess",
