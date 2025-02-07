@@ -38,7 +38,7 @@ export const Projects = () => {
     {
       title: "Dictionary_Recipe: AI generated Dictionary app to get word definitions based on prefered context and educational level ",
       description: "Tech used: Typescript, OpenAI, Javascript, HTML, CSS",
-      imgUrl: "https://dictionary-app-roan-rho.vercel.app/",
+      imgUrl: "https://dictionary-app-git-main-mohammeds-projects-6114bcce.vercel.app/",
       img:dictionary_app
     },
     
