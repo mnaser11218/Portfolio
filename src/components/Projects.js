@@ -19,6 +19,7 @@ import blogAWS from "../assets/img/blogaws.png"
 import leonCertificate from "../assets/img/leon.png"
 import reactDom from "../assets/img/reactDomArticle.png"
 import cypress from '../assets/img/cypress2.png'
+import AWS from '../assets/img/aws.png'
 export const Projects = () => {
 
   const projects = [
@@ -77,7 +78,14 @@ export const Projects = () => {
       imgUrl: "",
       img:techElevator
     },
-    
+
+
+     {
+      title: "AWS Certified Cloud Practioner Certificate",
+      description: "",
+      imgUrl: "https://www.credly.com/badges/24a8a5f2-0673-4602-844b-bb2012e33e51/public_url",
+      img:AWS
+    },
     {
       title: "HackerRank Frontend Developer (React) Certificate",
       description: "",
